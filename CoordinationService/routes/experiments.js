@@ -1,10 +1,7 @@
 var express = require('express');
 var router = express.Router();
-var path = require('path');
-var utilities = require('./dbUtilities');
 var request = require('request');
 var log = require('./logUtilities');
-var dynamicIp = require('./dynamicIp');
 
 //Lists all experiments
 router.get("/list", function getExperiments(req, res, next) {

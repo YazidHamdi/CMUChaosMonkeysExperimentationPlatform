@@ -1,7 +1,5 @@
 var express = require('express');
 var router = express.Router();
-var path = require('path');
-var utilities = require('./dbUtilities');
 var log = require('./logUtilities');
 
 /* gets the list of datasets from the database */

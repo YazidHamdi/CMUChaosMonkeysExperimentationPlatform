@@ -1,7 +1,5 @@
 var express = require('express');
 var router = express.Router();
-var mysql = require('mysql');
-var utilities = require('./dbUtilities');
 var log = require('./logUtilities');
 
 /* Convention: serviceType must be in the format specified by "ServiceTypes.xlsx",  i.e. "DataInput-<data_format>", "AlgInput-<language>", "Train-<language>" or "Exec-<language>" */

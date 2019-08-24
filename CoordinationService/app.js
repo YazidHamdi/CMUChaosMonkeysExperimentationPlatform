@@ -1,11 +1,9 @@
 var express = require('express');
 var path = require('path');
-var favicon = require('serve-favicon');
 var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var stylus = require('stylus');
-var request = require('request');
 var index = require('./routes/index');
 var heartbeat = require('./routes/heartbeat');
 var datasets = require('./routes/datasets');
@@ -16,13 +14,12 @@ var models = require('./routes/models');
 var algorithms = require('./routes/algorithms');
 var download = require('./routes/download');
 var dynamicIp = require('./routes/dynamicIp');
-var startup = require('./startup');
 
 var app = express();
 
 //View engine setup (for errors)
 app.set('views', path.join(__dirname, 'views'));
-app.set('view engine', 'jade');
+app.set('view engine', 'pug');
 
 //Modules
 app.use(logger('dev'));

@@ -1,13 +1,10 @@
 var express = require('express');
 var router = express.Router();
 var path = require('path');
-var utilities = require('./dbUtilities');
 var log = require('./logUtilities');
-var mysqlToCsv = require("mysql-to-csv")
 var nodeCmd = require("node-cmd");
 var url = require('url');
 var config = require('../config/logDbConfig.json');
-const SERVICE_EXISTS_ERRORCODE = 1062;
 
 /* gets the table of services, controls liveness of remote services and deregisters non responsive ones after 3 minutes */
 router.get('/table', function getServiceTable(req, res, next) {

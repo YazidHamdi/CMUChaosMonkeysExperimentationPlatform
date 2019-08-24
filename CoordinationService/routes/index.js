@@ -1,7 +1,6 @@
 var express = require('express');
 var router = express.Router();
 var path = require('path');
-var utilities = require('./dbUtilities');
 
 /* List of active services. */
 router.get('/', function routeRoot(req, res, next) {

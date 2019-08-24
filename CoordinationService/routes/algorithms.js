@@ -1,5 +1,4 @@
 var express = require('express');
-var utilities = require('./dbUtilities');
 var router = express.Router();
 var log = require('./logUtilities');
 
