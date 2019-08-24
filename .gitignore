@@ -104,4 +104,4 @@ maven-archiver/
 basic-service.iml
 
 # Package Lock File
-package-lock.json
+CoordinationService/package-lock.json
