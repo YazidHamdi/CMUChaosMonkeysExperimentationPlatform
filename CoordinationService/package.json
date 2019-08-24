@@ -1,5 +1,5 @@
 {
-  "name": "express",
+  "name": "chaosmonkeys",
   "version": "0.0.0",
   "private": true,
   "scripts": {
@@ -7,13 +7,13 @@
     "test": "mocha"
   },
   "dependencies": {
-    "body-parser": "~1.17.1",
+    "body-parser": "^1.19.0",
     "cookie-parser": "~1.4.3",
     "debug": "~2.6.3",
-    "express": "~4.15.2",
+    "express": "^4.17.1",
     "jade": "~1.11.0",
-    "mocha": "^3.4.2",
-    "morgan": "~1.8.1",
+    "mocha": "^6.2.0",
+    "morgan": "^1.9.1",
     "mysql": "^2.13.0",
     "mysql-to-csv": "^0.9.3",
     "node-cmd": "^3.0.0",
