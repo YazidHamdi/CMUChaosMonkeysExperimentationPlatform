@@ -17,7 +17,7 @@
     "mysql-to-csv": "^0.9.3",
     "node-cmd": "^3.0.0",
     "nodemon": "^1.11.0",
-    "pug": "^2.0.4",
+    "pug": "^3.0.1",
     "really-need": "^1.9.2",
     "request": "^2.81.0",
     "serve-favicon": "~2.4.2",
